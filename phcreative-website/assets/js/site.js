@@ -13,6 +13,8 @@ var PHC_SETTINGS = {
   goatcounter: ""
 };
 
+if (window.PHC_PREVIEW) PHC_SETTINGS.formEndpoint = "";
+
 (function () {
   "use strict";
   var doc = document.documentElement;
@@ -33,6 +35,8 @@ var PHC_SETTINGS = {
     close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>',
     plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>'
   };
+
+  function setUrl(u) { try { if (history.replaceState) history.replaceState(null, "", u); } catch (e) { /* sandboxed */ } }
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -230,7 +234,7 @@ var PHC_SETTINGS = {
         var b = e.target.closest(".filter");
         if (!b) return;
         applyFilter(b.dataset.filter);
-        if (history.replaceState) history.replaceState(null, "", b.dataset.filter === "all" ? location.pathname : "?category=" + b.dataset.filter);
+        setUrl(b.dataset.filter === "all" ? location.pathname : "?category=" + b.dataset.filter);
       });
       var q = new URLSearchParams(location.search).get("category");
       if (q && catLabel[q]) applyFilter(q);
@@ -268,12 +272,12 @@ var PHC_SETTINGS = {
         document.body.style.overflow = "hidden";
         $(".lightbox__close", lb).focus();
       }
-      if (history.replaceState) history.replaceState(null, "", "#" + p.id);
+      setUrl("#" + p.id);
     };
     var closeLb = function () {
       lb.classList.remove("is-open");
       document.body.style.overflow = "";
-      if (history.replaceState) history.replaceState(null, "", location.pathname + location.search);
+      setUrl(location.pathname + location.search);
       if (lastFocus) lastFocus.focus();
     };
     var step = function (d) {
@@ -340,11 +344,14 @@ var PHC_SETTINGS = {
         return "mailto:" + PHC_SETTINGS.email + "?subject=" + encodeURIComponent("New PHC inquiry: " + (data["Project name"] || data.Name || "")) + "&body=" + encodeURIComponent(lines.join("\n"));
       };
 
-      fetch(PHC_SETTINGS.formEndpoint, {
+      var send = PHC_SETTINGS.formEndpoint
+        ? fetch(PHC_SETTINGS.formEndpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(data)
-      }).then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      })
+        : Promise.resolve({ ok: true, json: function () { return Promise.resolve({ success: "true" }); } }); // preview mode: nothing is sent
+      send.then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
         .then(function (res) {
           if (!res.ok || String(res.j.success) === "false") throw new Error(res.j.message || "Send failed");
           form.hidden = true;
