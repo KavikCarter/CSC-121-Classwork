@@ -741,3 +741,9 @@ em.accent, .accent { font-style: italic; color: var(--coral); }
 .section--navy .billing__name { color: var(--peach-fuzz); }
 .on-light .billing__name { color: var(--navy); }
 .billing__credit { display: inline-block; margin: 0 .5em; }
+
+/* Full PHC logo (business-card version) in the footer */
+.footer-logo { display: inline-block; }
+.footer-logo__mark { width: 112px; height: 112px; transition: transform .4s var(--ease); }
+.footer-logo:hover .footer-logo__mark { transform: rotate(-6deg); }
+.brand__mark { width: 46px; height: 46px; }
