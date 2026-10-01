@@ -30,7 +30,6 @@ window.PHC_PROJECTS = [
     year: "2025",
     categories: ["film"],
     src: "assets/img/work/fantascape-poster.jpg",
-    size: "tall",
     featured: true,
     services: ["Key art", "Title design", "Photo treatment", "BTS photography"],
     description:
@@ -68,7 +67,6 @@ window.PHC_PROJECTS = [
     client: "Cat Borovicka · 48 Hour Film Project",
     categories: ["film"],
     src: "assets/img/work/table-for-one.jpg",
-    size: "tall",
     featured: true,
     services: ["Key art", "Script supervisor", "Graphic design"],
     description:
@@ -89,13 +87,26 @@ window.PHC_PROJECTS = [
       "A crowned, illustrated rooster and a bold hexagon pattern for a food trailer, carried across cups, takeout boxes and business cards printed as custom playing cards."
   },
   {
+    id: "fantascape-bts-dome",
+    title: "Fantascape: Under the Dome",
+    subtitle: "BTS photography",
+    client: "Fantascape · Carolina Sundancers & Stardead Nostalgias · 48 Hour Film Project",
+    year: "2025",
+    categories: ["photography", "film"],
+    src: "assets/img/work/fantascape-bts-dome.jpg",
+    size: "wide",
+    featured: true,
+    services: ["BTS photography", "On-set coverage"],
+    description:
+      "The lead lit up under the escape machine while the crew can't keep a straight face. Neon set lighting, a gimbal rig and a real laugh, all in one frame."
+  },
+  {
     id: "five-hours-earlier",
     title: "5 Hours Earlier",
     subtitle: "Film poster / key art",
     client: "Team JoyFilm · 48 Hour Film Project",
     categories: ["film"],
     src: "assets/img/work/five-hours-earlier.jpg",
-    size: "tall",
     featured: true,
     services: ["Key art", "Title design", "Billing block"],
     description:
@@ -122,7 +133,6 @@ window.PHC_PROJECTS = [
     client: "Lunch Hour (short film)",
     categories: ["film"],
     src: "assets/img/work/lunch-hour.jpg",
-    size: "tall",
     featured: true,
     services: ["Key art", "Title design"],
     description:
@@ -149,11 +159,24 @@ window.PHC_PROJECTS = [
     client: "Vantage Pointe Pictures · written & directed by Dustin Weible",
     categories: ["film"],
     src: "assets/img/work/can-i-come-in.jpg",
-    size: "tall",
     featured: true,
     services: ["Key art", "Photo compositing", "Billing block"],
     description:
       "“A stranger knocks at the door. Who lies within?” The whole poster is one extreme close-up of an eye, with something waiting in its reflection, and a full theatrical billing block below."
+  },
+  {
+    id: "fantascape-bts-lab",
+    title: "Fantascape: The Lab",
+    subtitle: "BTS photography",
+    client: "Fantascape · Carolina Sundancers & Stardead Nostalgias · 48 Hour Film Project",
+    year: "2025",
+    categories: ["photography", "film"],
+    src: "assets/img/work/fantascape-bts-lab.jpg",
+    size: "tall",
+    featured: true,
+    services: ["Production stills", "BTS photography"],
+    description:
+      "A production still in the film's magenta-and-blue world: the author and the lab-coated scientist moments before the escape begins."
   },
   {
     id: "remnants-of-ash",
@@ -162,7 +185,6 @@ window.PHC_PROJECTS = [
     client: "Concord Creative Company · directed by Josh Myers",
     categories: ["film"],
     src: "assets/img/work/remnants-of-ash.jpg",
-    size: "tall",
     featured: true,
     services: ["1st Assistant Camera"],
     description:
@@ -183,13 +205,24 @@ window.PHC_PROJECTS = [
       "Four marks, four personalities: a gold script seal for The Gilded Pearl mobile event company, a refined monogram for Little Miss Macarons, a mandala-style emblem for Carolina Life Real Estate & Auctions, and a bold vintage badge for Status Quo Cigars."
   },
   {
+    id: "fantascape-bts-gimbal",
+    title: "Fantascape: Low Angle",
+    subtitle: "BTS photography",
+    client: "Fantascape · Carolina Sundancers & Stardead Nostalgias · 48 Hour Film Project",
+    year: "2025",
+    categories: ["photography", "film"],
+    src: "assets/img/work/fantascape-bts-gimbal.jpg",
+    services: ["BTS photography"],
+    description:
+      "The camera operator drops the gimbal to the floor for a low shot, washed in the set's teal light."
+  },
+  {
     id: "knuckle-casting",
     title: "Knuckle: Extras Casting",
     subtitle: "Production graphics",
     client: "Knuckle (feature film) · Gaffney, SC",
     categories: ["film"],
     src: "assets/img/work/knuckle-casting.jpg",
-    featured: true,
     services: ["Casting flyer", "Production graphics", "Typography"],
     description:
       "A casting call for locals to appear as college students, staff and carnival-goers. The carnival-swirl background, circus-poster lettering and ribbon banner put the film's world on the flyer before anyone reads a word."
@@ -218,15 +251,28 @@ window.PHC_PROJECTS = [
       "A firefly tucked inside a “C” for a candle and soap scent shop, with honeycomb-gold badges, a script wordmark and seals that say it serves “coast to coast.”"
   },
   {
-    id: "fantascape-11",
-    title: "Fantascape: Behind the Scenes",
+    id: "fantascape-bts-vineyard",
+    title: "Fantascape: Vineyard Blocking",
     subtitle: "BTS photography",
-    client: "Fantascape · 48 Hour Film Project",
+    client: "Fantascape · Carolina Sundancers & Stardead Nostalgias · 48 Hour Film Project",
+    year: "2025",
     categories: ["photography", "film"],
-    drive: "1FpB3kn2mMaaOaoAVKkGARaJbqhkCG9ML",
-    services: ["BTS photography", "On-set coverage"],
+    src: "assets/img/work/fantascape-bts-vineyard.jpg",
+    services: ["BTS photography"],
     description:
-      "Behind-the-scenes coverage from set, capturing the crew, the craft and the moments between takes."
+      "Boom up, camera ready. The director walks the cast through a scene among the vines."
+  },
+  {
+    id: "fantascape-bts-crew",
+    title: "Fantascape: Pond-Side Setup",
+    subtitle: "BTS photography",
+    client: "Fantascape · Carolina Sundancers & Stardead Nostalgias · 48 Hour Film Project",
+    year: "2025",
+    categories: ["photography", "film"],
+    src: "assets/img/work/fantascape-bts-crew.jpg",
+    services: ["BTS photography"],
+    description:
+      "Silks, a bounce, the slate on the grass and the whole crew huddled in the shade. This is what a 48-hour shoot actually looks like."
   },
   {
     id: "reedy-reels-process",
@@ -278,36 +324,6 @@ window.PHC_PROJECTS = [
     src: "assets/img/work/bchs-signage.jpg",
     services: ["Signage", "Badges", "Silhouette illustration"],
     description: "Seals, badges and county-shaped markers that carry the society's silhouette scene onto signage at different scales."
-  },
-  {
-    id: "fantascape-9",
-    title: "Fantascape: On Set",
-    subtitle: "BTS photography",
-    client: "Fantascape · 48 Hour Film Project",
-    categories: ["photography", "film"],
-    drive: "17OxTx3AR58D5FRiuvqzgq4gUHbyiEe8M",
-    services: ["BTS photography"],
-    description: "Documenting production from the inside: the people and the process that make the picture."
-  },
-  {
-    id: "fantascape-20",
-    title: "Fantascape: The Crew",
-    subtitle: "BTS photography",
-    client: "Fantascape · 48 Hour Film Project",
-    categories: ["photography", "film"],
-    drive: "1xMilug27uxEMR7en1x13vvidDC_OX32O",
-    services: ["BTS photography"],
-    description: "Behind-the-scenes stills from production."
-  },
-  {
-    id: "fantascape-25",
-    title: "Fantascape: Between Takes",
-    subtitle: "BTS photography",
-    client: "Fantascape · 48 Hour Film Project",
-    categories: ["photography", "film"],
-    drive: "11-0QsWOQKwBM3J_jelZBywvPD1sSYgkv",
-    services: ["BTS photography"],
-    description: "Behind-the-scenes stills from production."
   }
 ];
 
@@ -322,7 +338,7 @@ window.PHC_HERO = [
   { id: "table-for-one", label: "Film Poster", contain: true },
   { id: "soil-soul", label: "Brand + Signage" },
   { id: "lunch-hour", label: "Film Poster", contain: true },
-  { id: "fantascape-11", label: "BTS Photography" },
+  { id: "fantascape-bts-dome", label: "BTS Photography" },
   { id: "reedy-reels", label: "Festival Branding", contain: true }
 ];
 
