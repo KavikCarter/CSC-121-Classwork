@@ -22,10 +22,10 @@ python3 -m http.server 8000   # open http://localhost:8000
 2. **Activate the inquiry form.** Submit one test inquiry on the live site. FormSubmit emails `paytonhoodcreative@gmail.com` an activation link; click it once. After that, every inquiry arrives by email and the sender gets an automatic reply. You can edit the auto-reply text in `contact/index.html` (`_autoresponse`).
 3. **Print the QR code.** Use `assets/qr/triff-qr.png` (print-ready) or `triff-qr.svg` (vector). It points to `https://www.paytonhood.com/triff/?utm_source=qr&utm_campaign=triff`, so test it on a phone once the domain is live. Regenerate with `python3 tools/make-qr.py "<url>"`.
 4. **Analytics (optional, 2 minutes).** Create a free site at goatcounter.com and put its code in `PHC_SETTINGS.goatcounter` at the top of `assets/js/site.js`. QR scans show up as `utm_source=qr`.
-5. **Images.** All branding pieces are hosted in the site itself (`assets/img/work/`, web-optimized from the BRANDING folder). The four Fantascape BTS photos still load from Google Drive because the originals are 25–40 MB. Keep that folder shared "anyone with the link", or export web-sized JPGs (about 2000px wide), put them in `assets/img/work/` named after their project id, and add a `src` line for each in `assets/js/projects.js`.
+5. **Images.** Every portfolio image is hosted in the site itself (`assets/img/work/`, web-optimized to about 2000px). See `PROJECT_CONTEXT.md` for how to add new pieces.
 6. **Personal touches still needed:**
    - A portrait for `/about/` (see the comment in `about/index.html`).
-   - The real PHC logo files. The fox mark in `assets/img/fox-mark.svg` is a stand-in.
+   - Her original PHC logo file. The PH monogram in `assets/img/ph-monogram.svg` / `ph-logo-full.svg` is redrawn from her boards.
    - The "Neue" font file and license. The site is set up for *Neue Montreal* and falls back to Jost until the font files are added.
    - A read-through of the bio copy.
 
