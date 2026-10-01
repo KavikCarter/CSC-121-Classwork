@@ -30,6 +30,7 @@ window.PHC_PROJECTS = [
     year: "2025",
     categories: ["branding", "film"],
     drive: "1Ow7jxr2kHx4pCbv6ui8cEvbfP5qEP-BA",
+    src: "assets/img/work/reedy-reels.jpg",
     size: "wide",
     featured: true,
     services: ["Logo design", "Festival identity", "Typography"],
@@ -49,6 +50,7 @@ window.PHC_PROJECTS = [
     year: "2025",
     categories: ["branding", "film"],
     drive: "1XEv39q4Zv1UE_WnteoAMXv7gj5LfqQ0X",
+    src: "assets/img/work/reedy-reels-process.jpg",
     size: "tall",
     featured: true,
     services: ["Concept development", "Presentation design"],
@@ -72,13 +74,14 @@ window.PHC_PROJECTS = [
     title: "Berkeley County Historical Society",
     subtitle: "Brand identity",
     client: "Berkeley County Historical Society · SC",
-    categories: ["branding"],
+    categories: ["branding", "illustration"],
     drive: "1LtSanWOwM3mBpa2InnIXamWvs6vW07Q3",
+    src: "assets/img/work/bchs-branding.jpg",
     size: "wide",
     featured: true,
     services: ["Logo suite", "Typography system", "Brand marks"],
     description:
-      "A heritage identity with a full logo suite and a Freight Text Pro type system (Bold, Book and Book Italic): classic and trustworthy, and built to last."
+      "A heritage identity built on custom silhouette illustration: a colonial militiaman and a fox beneath live oaks and a cannon, set inside the county's shape. It includes a seal, wordmarks, an ornamental border and a Freight Text Pro type system."
   },
   {
     id: "fantascape-9",
@@ -98,11 +101,12 @@ window.PHC_PROJECTS = [
     client: "Soil & Soul Nursery · Summerville, SC",
     categories: ["branding"],
     drive: "1abFONygn4m07z9phHFxlaIuckrVBX8cu",
+    src: "assets/img/work/soil-soul.jpg",
     pdf: true,
     featured: true,
     services: ["Brand development", "Logo design", "Packaging", "Collateral", "Signage"],
     description:
-      "A start-to-finish identity for an exotic plant shop: logo, price tags and packaging, business collateral and storefront signage."
+      "A start-to-finish identity for an exotic plant shop, from the hanging storefront sign to embroidered apparel, watering-bottle labels, plant tags and price tags."
   },
   {
     id: "bchs-signage",
@@ -111,9 +115,10 @@ window.PHC_PROJECTS = [
     client: "Berkeley County Historical Society",
     categories: ["branding"],
     drive: "1o-9AAz89EOQVHFJru_s4e3PJh7YxPUEM",
+    src: "assets/img/work/bchs-signage.jpg",
     featured: true,
-    services: ["Signage", "Environmental graphics"],
-    description: "Carrying the historical society's identity out into the landscape with markers and signage."
+    services: ["Signage", "Badges", "Silhouette illustration"],
+    description: "Seals, badges and county-shaped markers that carry the society's silhouette scene onto signage at different scales."
   },
   {
     id: "coastal-creations",
@@ -122,23 +127,25 @@ window.PHC_PROJECTS = [
     client: "Coastal Creations",
     categories: ["branding", "illustration"],
     drive: "1NjdsyZDSTbEupUXwdsjSoAyuW0RzcZ6-",
+    src: "assets/img/work/coastal-creations.jpg",
     featured: true,
     services: ["Logo design", "Logo variations", "Illustrated mark"],
     description:
-      "A shell-inspired mark with primary, stacked and badge variations for a scent shop “serving coast to coast.”"
+      "A firefly tucked inside a “C” for a candle and soap scent shop, with honeycomb-gold badges, a script wordmark and seals that say it serves “coast to coast.”"
   },
   {
     id: "wnc-moodboard",
     title: "Weathering & Nurturing the Carolinas",
     subtitle: "Brand moodboard",
-    client: "WNC",
+    client: "Weathering & Nurturing the Carolinas",
     categories: ["branding"],
     drive: "1MTKHWfrDlEXPGCXD7Yr8avSnLH2nUrmj",
+    src: "assets/img/work/wnc-moodboard.jpg",
     size: "wide",
     featured: true,
     services: ["Moodboard", "Monogram", "Type pairing"],
     description:
-      "Visual direction for a Carolinas brand: monogram, palette and an Acherus Grotesque type pairing (Bold with Extra Light Italic)."
+      "Identity and moodboard for a community relief effort across the Carolinas: a WC monogram with a water-drop counter, an earthy teal, gold, forest and clay palette, an Acherus Grotesque type pairing, and photos from the ground."
   },
   {
     id: "fantascape-20",
@@ -155,35 +162,41 @@ window.PHC_PROJECTS = [
     id: "logo-collection",
     title: "Logo Design Collection",
     subtitle: "Marks for small businesses",
-    client: "Pearl Macarons · Status Quo Cigars · Carolina Life Real Estate & Auctions + more",
+    client: "The Gilded Pearl · Little Miss Macarons · Carolina Life · Status Quo Cigars",
     categories: ["branding"],
     drive: "1aNRblGR_-P-lPBs1pYLvXQHY7tcRP5tP",
+    src: "assets/img/work/logo-collection.jpg",
     pdf: true,
     featured: true,
     services: ["Logo design"],
-    description: "A collection of logos for small businesses, from macarons to cigars to real estate and auctions."
+    description:
+      "Four marks, four personalities: a gold script seal for The Gilded Pearl mobile event company, a refined monogram for Little Miss Macarons, a mandala-style emblem for Carolina Life Real Estate & Auctions, and a bold vintage badge for Status Quo Cigars."
   },
   {
     id: "king-wings",
-    title: "King Wings Wit It",
-    subtitle: "Restaurant branding",
-    client: "King Wings Wit It",
+    title: "King Wings Wit' It",
+    subtitle: "Food & beverage trailer: full brand",
+    client: "King Wings Wit' It",
     categories: ["branding"],
     drive: "1bDWXjqYKMmlgvCfydfC9Jcrqs4z-gEEx",
+    src: "assets/img/work/king-wings.jpg",
     pdf: true,
-    services: ["Brand identity"],
-    description: "Brand identity work for King Wings Wit It."
+    services: ["Brand development", "Logo design", "Packaging", "Business cards"],
+    description:
+      "A crowned, illustrated rooster and a bold hexagon pattern for a food trailer, carried across cups, takeout boxes and business cards printed as custom playing cards."
   },
   {
     id: "irmas-oriental",
     title: "Irma's Oriental",
-    subtitle: "Brand design",
-    client: "Irma's Oriental",
+    subtitle: "Grocery store: logo + signage",
+    client: "Irma's Oriental Grocery Store",
     categories: ["branding"],
     drive: "1sUaTnPEsegNi1aYyKoLTgQui162PeFB1",
+    src: "assets/img/work/irmas-oriental.jpg",
     pdf: true,
-    services: ["Brand identity"],
-    description: "Brand identity work for Irma's Oriental."
+    services: ["Logo design", "Pylon & box sign", "Window vinyl"],
+    description:
+      "A logo built to live outdoors: an illuminated box sign, a pylon panel and storefront window vinyl, all readable day and night."
   },
   {
     id: "fantascape-25",
@@ -198,15 +211,17 @@ window.PHC_PROJECTS = [
 ];
 
 /* Homepage "Client Spotlight": rotates through these project ids. */
-window.PHC_SPOTLIGHT = ["reedy-reels", "bchs-branding", "soil-soul"];
+window.PHC_SPOTLIGHT = ["reedy-reels", "bchs-branding", "king-wings", "soil-soul"];
 
-/* Homepage hero carousel slides (project id + optional headline override). */
+/* Homepage hero carousel slides (project id + caption label).
+   contain: true shows the whole board instead of cropping it to fill the screen. */
 window.PHC_HERO = [
+  { id: "king-wings", label: "Brand + Packaging" },
   { id: "fantascape-11", label: "BTS Photography" },
+  { id: "soil-soul", label: "Brand + Signage" },
   { id: "reedy-reels", label: "Festival Branding", contain: true },
-  { id: "fantascape-9", label: "On Set" },
-  { id: "bchs-branding", label: "Brand Identity", contain: true },
-  { id: "fantascape-20", label: "Film Crew" }
+  { id: "irmas-oriental", label: "Logo + Signage" },
+  { id: "fantascape-9", label: "On Set" }
 ];
 
 /* Set to true after running tools/fetch-drive-images.sh. Every piece then
