@@ -729,3 +729,15 @@ em.accent, .accent { font-style: italic; color: var(--coral); }
   border-top: 4px solid var(--navy-deep);
 }
 @media (max-width: 600px) { .tile-band { height: 40px; background-size: 40px auto; } }
+
+/* Film credits set like a poster billing block */
+.billing {
+  max-width: 980px; margin: 0 auto; text-align: center; text-wrap: balance;
+  font-family: "Oswald", "Arial Narrow", "Helvetica Neue", sans-serif; text-transform: uppercase;
+  line-height: 1.5; letter-spacing: .02em;
+}
+.billing__role { font-weight: 300; font-size: clamp(.8rem, .7rem + .4vw, 1.05rem); opacity: .75; }
+.billing__name { font-weight: 500; font-size: clamp(1.25rem, 1rem + 1.2vw, 2.1rem); margin-right: .35em; }
+.section--navy .billing__name { color: var(--peach-fuzz); }
+.on-light .billing__name { color: var(--navy); }
+.billing__credit { display: inline-block; margin: 0 .5em; }

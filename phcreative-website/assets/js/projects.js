@@ -62,17 +62,17 @@ window.PHC_PROJECTS = [
     ]
   },
   {
-    id: "five-hours-earlier",
-    title: "5 Hours Earlier",
-    subtitle: "Film poster / key art",
-    client: "Team JoyFilm · 48 Hour Film Project",
+    id: "table-for-one",
+    title: "Table for One",
+    subtitle: "Film poster · script supervisor",
+    client: "Cat Borovicka · 48 Hour Film Project",
     categories: ["film"],
-    src: "assets/img/work/five-hours-earlier.jpg",
+    src: "assets/img/work/table-for-one.jpg",
     size: "tall",
     featured: true,
-    services: ["Key art", "Title design", "Billing block"],
+    services: ["Key art", "Script supervisor", "Graphic design"],
     description:
-      "“Some fires don't erase what's been done.” A sunset cast portrait over open flame, with a title where a pair of garden shears cuts through the A. That one prop hints at the story without giving it away."
+      "“Can a shy aspiring chef help save her favorite local bar?” I was on this crew as Script Supervisor and Graphic Designer. The poster pairs two moments of the same character in warm, out-of-focus bar light with an elegant high-contrast serif title."
   },
   {
     id: "king-wings",
@@ -89,17 +89,17 @@ window.PHC_PROJECTS = [
       "A crowned, illustrated rooster and a bold hexagon pattern for a food trailer, carried across cups, takeout boxes and business cards printed as custom playing cards."
   },
   {
-    id: "can-i-come-in",
-    title: "Can I Come In?",
-    subtitle: "Horror film poster",
-    client: "Vantage Pointe Pictures · written & directed by Dustin Weible",
+    id: "five-hours-earlier",
+    title: "5 Hours Earlier",
+    subtitle: "Film poster / key art",
+    client: "Team JoyFilm · 48 Hour Film Project",
     categories: ["film"],
-    src: "assets/img/work/can-i-come-in.jpg",
+    src: "assets/img/work/five-hours-earlier.jpg",
     size: "tall",
     featured: true,
-    services: ["Key art", "Photo compositing", "Billing block"],
+    services: ["Key art", "Title design", "Billing block"],
     description:
-      "“A stranger knocks at the door. Who lies within?” The whole poster is one extreme close-up of an eye, with something waiting in its reflection, and a full theatrical billing block below."
+      "“Some fires don't erase what's been done.” A sunset cast portrait over open flame, with a title where a pair of garden shears cuts through the A. That one prop hints at the story without giving it away."
   },
   {
     id: "bchs-branding",
@@ -116,16 +116,17 @@ window.PHC_PROJECTS = [
       "A heritage identity built on custom silhouette illustration: a colonial militiaman and a fox beneath live oaks and a cannon, set inside the county's shape. It includes a seal, wordmarks, an ornamental border and a Freight Text Pro type system."
   },
   {
-    id: "fantascape-11",
-    title: "Fantascape: Behind the Scenes",
-    subtitle: "BTS photography",
-    client: "Fantascape · 48 Hour Film Project",
-    categories: ["photography", "film"],
-    drive: "1FpB3kn2mMaaOaoAVKkGARaJbqhkCG9ML",
+    id: "lunch-hour",
+    title: "Lunch Hour",
+    subtitle: "Rom-com poster",
+    client: "Lunch Hour (short film)",
+    categories: ["film"],
+    src: "assets/img/work/lunch-hour.jpg",
+    size: "tall",
     featured: true,
-    services: ["BTS photography", "On-set coverage"],
+    services: ["Key art", "Title design"],
     description:
-      "Behind-the-scenes coverage from set, capturing the crew, the craft and the moments between takes."
+      "“A soup loving man meets the soup loving woman of his dreams. The only problem… they're both married.” A warm, glowing two-shot full of sideways glances, and a title where a clock face replaces the O in HOUR."
   },
   {
     id: "soil-soul",
@@ -142,16 +143,30 @@ window.PHC_PROJECTS = [
       "A start-to-finish identity for an exotic plant shop, from the hanging storefront sign to embroidered apparel, watering-bottle labels, plant tags and price tags."
   },
   {
-    id: "knuckle-casting",
-    title: "Knuckle: Extras Casting",
-    subtitle: "Production graphics",
-    client: "Knuckle (feature film) · Gaffney, SC",
+    id: "can-i-come-in",
+    title: "Can I Come In?",
+    subtitle: "Horror film poster",
+    client: "Vantage Pointe Pictures · written & directed by Dustin Weible",
     categories: ["film"],
-    src: "assets/img/work/knuckle-casting.jpg",
+    src: "assets/img/work/can-i-come-in.jpg",
+    size: "tall",
     featured: true,
-    services: ["Casting flyer", "Production graphics", "Typography"],
+    services: ["Key art", "Photo compositing", "Billing block"],
     description:
-      "A casting call for locals to appear as college students, staff and carnival-goers. The carnival-swirl background, circus-poster lettering and ribbon banner put the film's world on the flyer before anyone reads a word."
+      "“A stranger knocks at the door. Who lies within?” The whole poster is one extreme close-up of an eye, with something waiting in its reflection, and a full theatrical billing block below."
+  },
+  {
+    id: "remnants-of-ash",
+    title: "Remnants of Ash",
+    subtitle: "Camera department: 1st AC",
+    client: "Concord Creative Company · directed by Josh Myers",
+    categories: ["film"],
+    src: "assets/img/work/remnants-of-ash.jpg",
+    size: "tall",
+    featured: true,
+    services: ["1st Assistant Camera"],
+    description:
+      "I worked as 1st Assistant Camera on this Concord Creative Company production, written by Josh Myers and Tammy Mattox, keeping the image sharp and the camera department running."
   },
   {
     id: "logo-collection",
@@ -168,13 +183,24 @@ window.PHC_PROJECTS = [
       "Four marks, four personalities: a gold script seal for The Gilded Pearl mobile event company, a refined monogram for Little Miss Macarons, a mandala-style emblem for Carolina Life Real Estate & Auctions, and a bold vintage badge for Status Quo Cigars."
   },
   {
+    id: "knuckle-casting",
+    title: "Knuckle: Extras Casting",
+    subtitle: "Production graphics",
+    client: "Knuckle (feature film) · Gaffney, SC",
+    categories: ["film"],
+    src: "assets/img/work/knuckle-casting.jpg",
+    featured: true,
+    services: ["Casting flyer", "Production graphics", "Typography"],
+    description:
+      "A casting call for locals to appear as college students, staff and carnival-goers. The carnival-swirl background, circus-poster lettering and ribbon banner put the film's world on the flyer before anyone reads a word."
+  },
+  {
     id: "prop-consular-id",
     title: "Screen-Ready Prop ID",
     subtitle: "Production design: prop graphics",
     client: "Film production prop · fictional character",
     categories: ["film"],
     src: "assets/img/work/prop-consular-id.jpg",
-    featured: true,
     services: ["Prop design", "Production graphics", "Print finishing"],
     description:
       "A front-and-back consular ID card designed, printed and finished for a character, detailed enough to hold up in a close-up. Every name and number on it is invented for the story."
@@ -187,10 +213,20 @@ window.PHC_PROJECTS = [
     categories: ["branding", "illustration"],
     drive: "1NjdsyZDSTbEupUXwdsjSoAyuW0RzcZ6-",
     src: "assets/img/work/coastal-creations.jpg",
-    featured: true,
     services: ["Logo design", "Logo variations", "Illustrated mark"],
     description:
       "A firefly tucked inside a “C” for a candle and soap scent shop, with honeycomb-gold badges, a script wordmark and seals that say it serves “coast to coast.”"
+  },
+  {
+    id: "fantascape-11",
+    title: "Fantascape: Behind the Scenes",
+    subtitle: "BTS photography",
+    client: "Fantascape · 48 Hour Film Project",
+    categories: ["photography", "film"],
+    drive: "1FpB3kn2mMaaOaoAVKkGARaJbqhkCG9ML",
+    services: ["BTS photography", "On-set coverage"],
+    description:
+      "Behind-the-scenes coverage from set, capturing the crew, the craft and the moments between takes."
   },
   {
     id: "reedy-reels-process",
@@ -283,9 +319,9 @@ window.PHC_SPOTLIGHT = ["fantascape-poster", "reedy-reels", "bchs-branding", "ki
 window.PHC_HERO = [
   { id: "fantascape-poster", label: "Film Key Art", contain: true },
   { id: "king-wings", label: "Brand + Packaging" },
-  { id: "five-hours-earlier", label: "Film Poster", contain: true },
+  { id: "table-for-one", label: "Film Poster", contain: true },
   { id: "soil-soul", label: "Brand + Signage" },
-  { id: "can-i-come-in", label: "Horror Key Art", contain: true },
+  { id: "lunch-hour", label: "Film Poster", contain: true },
   { id: "fantascape-11", label: "BTS Photography" },
   { id: "reedy-reels", label: "Festival Branding", contain: true }
 ];
