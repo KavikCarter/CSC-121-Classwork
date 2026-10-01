@@ -87,6 +87,23 @@ window.PHC_PROJECTS = [
       "A crowned, illustrated rooster and a bold hexagon pattern for a food trailer, carried across cups, takeout boxes and business cards printed as custom playing cards."
   },
   {
+    id: "illustration-silhouettes",
+    title: "Custom Silhouettes & Line Drawings",
+    subtitle: "Illustration commissions",
+    client: "Couples, families, weddings & pets",
+    categories: ["illustration"],
+    src: "assets/img/work/illustration-silhouettes.jpg",
+    featured: true,
+    services: ["Silhouettes", "Line drawings", "Starting at $75"],
+    description:
+      "Hand-traced silhouettes and fine line drawings from your own photos: profiles, couples, a wedding portrait, a heart-framed kiss, even a pet's paw print. They work as gifts, wedding signage, logos and keepsake prints.",
+    points: [
+      "Solid silhouettes with fine white detail lines that keep hair, fabric and hands readable.",
+      "Pure line drawings for a softer, more intimate portrait.",
+      "Delivered print-ready, or framed into shapes like the heart."
+    ]
+  },
+  {
     id: "fantascape-bts-dome",
     title: "Fantascape: Under the Dome",
     subtitle: "BTS photography",
@@ -125,6 +142,18 @@ window.PHC_PROJECTS = [
     services: ["Logo suite", "Typography system", "Brand marks"],
     description:
       "A heritage identity built on custom silhouette illustration: a colonial militiaman and a fox beneath live oaks and a cannon, set inside the county's shape. It includes a seal, wordmarks, an ornamental border and a Freight Text Pro type system."
+  },
+  {
+    id: "swirling-seas",
+    title: "Swirling Seas",
+    subtitle: "Acrylic on canvas",
+    client: "Original painting · Payton Hood",
+    categories: ["fineart"],
+    src: "assets/img/work/swirling-seas.jpg",
+    featured: true,
+    services: ["Acrylic painting", "Prints available by request"],
+    description:
+      "A curling Carolina wave under lavender-lit clouds, built up in thick, quick brushwork so the foam feels like it's still moving. Prints are available by request."
   },
   {
     id: "lunch-hour",
