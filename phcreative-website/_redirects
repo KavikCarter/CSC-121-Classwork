@@ -1,0 +1,24 @@
+# Old website paths -> new pages (keeps old links and QR codes working)
+/home              /            301
+/index.html        /            301
+/portfolio         /work/       301
+/portfolio/*       /work/       301
+/gallery           /work/       301
+/about-us          /about/      301
+/about-me          /about/      301
+/contact-us        /contact/    301
+/contact-me        /contact/    301
+/book              /contact/    301
+/services-1        /services/   301
+/store             /shop/       301
+/triff             /triff/      301
+
+# Keep internal project notes and tools private on the live site
+/README.md                 /404.html   404!
+/CLAUDE.md                 /404.html   404!
+/PAYTON_BRIEF.md           /404.html   404!
+/PROJECT_CONTEXT.md        /404.html   404!
+/PROJECT_INSTRUCTIONS.txt  /404.html   404!
+/DECISIONS.md              /404.html   404!
+/incoming/*                /404.html   404!
+/tools/*                   /404.html   404!
