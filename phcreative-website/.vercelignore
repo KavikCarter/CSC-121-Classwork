@@ -1,0 +1,10 @@
+# Project notes and tools stay in the repo but are never published
+README.md
+CLAUDE.md
+PAYTON_BRIEF.md
+PROJECT_CONTEXT.md
+PROJECT_INSTRUCTIONS.txt
+DECISIONS.md
+incoming
+tools
+_redirects
