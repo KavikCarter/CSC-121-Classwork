@@ -156,6 +156,24 @@ window.PHC_PROJECTS = [
       "A curling Carolina wave under lavender-lit clouds, built up in thick, quick brushwork so the foam feels like it's still moving. Prints are available by request."
   },
   {
+    id: "stage-production-design",
+    title: "Stage Production Design",
+    subtitle: "Sets, scenic pieces & stage graphics",
+    client: "Live stage productions",
+    categories: ["film"],
+    src: "assets/img/work/stage-production-design.jpg",
+    size: "wide",
+    featured: true,
+    services: ["Production design", "Scenic builds", "Stage graphics"],
+    description:
+      "Scenery built to be read from the back row: timber A-frames lit with paper stars, a wooden fence stenciled with the words that wall people in (prejudice, abandonment, rejection, betrayal), an O-FENCE floor graphic, and a wall of bold paper shapes that frames the stage under full concert lighting.",
+    points: [
+      "Each set carries the message of the series it was built for, so the story starts before anyone speaks.",
+      "Pieces are designed around stage lighting, haze and camera so they hold up in person and on the livestream.",
+      "Hands-on builds in wood, paint, stencil and paper."
+    ]
+  },
+  {
     id: "lunch-hour",
     title: "Lunch Hour",
     subtitle: "Rom-com poster",
@@ -228,7 +246,6 @@ window.PHC_PROJECTS = [
     drive: "1aNRblGR_-P-lPBs1pYLvXQHY7tcRP5tP",
     src: "assets/img/work/logo-collection.jpg",
     pdf: true,
-    featured: true,
     services: ["Logo design"],
     description:
       "Four marks, four personalities: a gold script seal for The Gilded Pearl mobile event company, a refined monogram for Little Miss Macarons, a mandala-style emblem for Carolina Life Real Estate & Auctions, and a bold vintage badge for Status Quo Cigars."
