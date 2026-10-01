@@ -30,7 +30,7 @@ python3 -m http.server 8000   # open http://localhost:8000
    - A read-through of the bio copy.
 
 ## Editing content
-- **Portfolio, hero slides and client spotlight:** all in `assets/js/projects.js`. Add an entry with its Drive file id (from the share link), categories and a description.
+- **Portfolio, hero slides and client spotlight:** all in `assets/js/projects.js`. See `PROJECT_CONTEXT.md` section 7 for the entry format, and `CLAUDE.md` for the rules.
 - **Colors and fonts:** CSS variables at the top of `assets/css/styles.css`. The brand palette is defined by name (`--peach-nectar`, `--limpet-shell`, `--eclipse`, …).
 - **Brand pattern:** `assets/img/pattern.svg` is the William Morris–inspired tile (crescent moon, four-point star, spade heart, feather, fox-tail swirl, taper lines).
 - Header and footer are repeated in each page's HTML. If you change the nav, update every page.
