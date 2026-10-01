@@ -1,6 +1,8 @@
 # PHCreative website: rules for Claude
 
-This is Payton Hood Creative's portfolio site (paytonhood.com). It's a static site in plain HTML, CSS and JS, with no build step. Read `PROJECT_CONTEXT.md` for the full brief. These are the rules that always apply.
+This is Payton Hood Creative's portfolio site (paytonhood.com). It's a static site in plain HTML, CSS and JS, with no build step. `PAYTON_BRIEF.md` is her original brief and the source of truth; it wins wherever anything disagrees with it. `PROJECT_CONTEXT.md` expands on it. These are the rules that always apply.
+
+**Layout reference:** cobaltproduction.com, for its client spotlight, rotating top carousel, easy navigation and "simplistic but has character" feel. Never copy its black and white color scheme.
 
 ## Brand
 - **Colors:**

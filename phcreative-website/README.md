@@ -21,7 +21,7 @@ python3 -m http.server 8000   # open http://localhost:8000
 1. **Deploy.** Netlify, Cloudflare Pages or Vercel (all free). Point the project at this repo (no build command; publish directory is the repo root). Then add `paytonhood.com` in the host's domain settings and update two DNS records at GoDaddy (see below).
 2. **Activate the inquiry form.** Submit one test inquiry on the live site. FormSubmit emails `paytonhoodcreative@gmail.com` an activation link; click it once. After that, every inquiry arrives by email and the sender gets an automatic reply. You can edit the auto-reply text in `contact/index.html` (`_autoresponse`).
 3. **Print the QR code.** Use `assets/qr/triff-qr.png` (print-ready) or `triff-qr.svg` (vector). It points to `https://www.paytonhood.com/triff/?utm_source=qr&utm_campaign=triff`, so test it on a phone once the domain is live. Regenerate with `python3 tools/make-qr.py "<url>"`.
-4. **Analytics (optional, 2 minutes).** Create a free site at goatcounter.com and put its code in `PHC_SETTINGS.goatcounter` at the top of `assets/js/site.js`. QR scans show up as `utm_source=qr`.
+4. **Analytics (Tier 1 per her brief, 2 minutes).** Create a free site at goatcounter.com and put its code in `PHC_SETTINGS.goatcounter` at the top of `assets/js/site.js`. QR scans show up as `utm_source=qr`.
 5. **Images.** Every portfolio image is hosted in the site itself (`assets/img/work/`, web-optimized to about 2000px). See `PROJECT_CONTEXT.md` for how to add new pieces.
 6. **Personal touches still needed:**
    - A portrait for `/about/` (see the comment in `about/index.html`).

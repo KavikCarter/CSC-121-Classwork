@@ -2,6 +2,8 @@
 
 Give this file to a Claude project as background before adding the Marketing and Photography files. It covers the client, the brand, what's already built, and how new work goes in.
 
+> **Source of truth:** `PAYTON_BRIEF.md` is Payton's original brief, transcribed as written. Wherever this file or the site disagrees with it, the brief wins. Section 10 lists everything on the site that was added during the build and isn't in her brief, so it still needs her approval.
+
 ---
 
 ## 1. Where things are
@@ -13,7 +15,8 @@ Give this file to a Claude project as background before adding the Marketing and
 | Planned home | Its own repo, `phcreative-website` (not created yet) |
 | Domain | paytonhood.com (registered at GoDaddy) |
 | Hosting plan | Netlify or Cloudflare Pages (free), publish folder `phcreative-website` |
-| Her original work | Google Drive folder "PHCreative" (owned by paytonhoodcreative@gmail.com) |
+| Her original work | Google Drive folder "PHCreative" (owned by paytonhoodcreative@gmail.com): https://drive.google.com/drive/folders/1kOPdciJ5AElOoJGTyoMwbPIP1xFxiKq_ |
+| Inspiration site | https://cobaltproduction.com (see section 3) |
 
 **Tech:** a static site in plain HTML, CSS and JS with no build step and no framework. Every portfolio piece is one entry in `assets/js/projects.js`, and its image lives in `assets/img/work/`.
 
@@ -26,7 +29,7 @@ Give this file to a Claude project as background before adding the Marketing and
 - **Instagram:** @paytonhoodcreative
 - **LinkedIn:** linkedin.com/in/payton-hood-549213175
 - **IMDb:** imdb.com/name/nm16310495
-- **Also on:** Facebook and YouTube (shown on her business card; links not provided yet)
+- **Other social accounts:** her brief also lists "paytonhoodcreative" twice and "@paytonhood" once, without naming the platforms. Her business card shows Facebook and YouTube icons, so two of these are probably those. The question is open in `DECISIONS.md`.
 - **Based in:** the Carolinas (work spans Greenville SC, Summerville SC, Berkeley County SC, Gaffney SC, Wofford College, and Tryon NC)
 
 **Tagline:** "Visual storytelling from script to screen." Also used: "Creating your visuals from script to screen."
@@ -38,6 +41,11 @@ Give this file to a Claude project as background before adding the Marketing and
 ---
 
 ## 3. Brand direction (from her notes)
+
+- **Inspiration site:** cobaltproduction.com.
+  - **She likes:** the client spotlight, the rotating carousel at the top, easy navigation, and its "simplistic but has character" feel. In her words: "literally everything," just switched out for her work, info and character, plus a store later.
+  - **She dislikes:** too much white and black.
+  - Use it as the reference for layout and navigation calls, never for its color scheme.
 
 - **Three words:** Unique. Exciting. Essential.
 - **Must not feel:** generic, bland, corporate.
@@ -189,7 +197,7 @@ Give this file to a Claude project as background before adding the Marketing and
 3. Point GoDaddy DNS at the host. Edit the `A @` record and the `CNAME www` record only, and leave the MX (email) records alone.
 4. Submit one test inquiry, then click the FormSubmit activation email.
 5. Test the TRIFF QR code on a phone.
-6. Optionally, add a GoatCounter analytics code in `assets/js/site.js`.
+6. **Analytics.** Her brief makes this Tier 1 ("basic analytics if easy"), so it isn't optional. Create a free GoatCounter site (about 2 minutes) and put its code in `PHC_SETTINGS.goatcounter` at the top of `assets/js/site.js`. QR scans arrive tagged `utm_source=qr`.
 7. Still needed from Payton:
    - a portrait for the About page;
    - her original logo file;
@@ -200,3 +208,26 @@ Give this file to a Claude project as background before adding the Marketing and
    - a decision on whether to show the prop ID publicly.
 
 **Later phases:** a working shop with print-on-demand calendars, testimonials, case-study pages, SEO, a blog, a film-specific landing page, and booking and payments. The end goal is a "one stop shop": inquiry → quote → contract → deposit → project → final payment, plus shop → payment → fulfillment.
+
+---
+
+## 10. Built but not in her brief (needs her OK)
+
+These came from the build, not from Payton, and should be confirmed or cut:
+
+- **Service lines added beyond her eight priced services:**
+  - Production Graphics (from her TRIFF list);
+  - Camera Department / AC, Production Design Support and Visual Development (from her "FILM" hire category);
+  - Portraits & Creative Photography (from her "PHOTOGRAPHY" category);
+  - Prints, Calendars and Custom Artwork (from her "ART" category).
+  
+  All are shown as "custom quote" or "by request". She hasn't set those prices.
+- **Copy:** the FAQ answers, the About bio, every project description, the "3 C's" card text, and the "Why PHC" text. All of it was written from her answers but not by her.
+- **Film credits block:** taken from the poster billing blocks she supplied.
+- **Inquiry form extras:**
+  - Name and Email fields (required to reply);
+  - Yes/Some/Not yet choices for "Do you already have photography/assets?";
+  - a preset list for "How did you find PHC?" (Instagram, TRIFF, referral, Google, LinkedIn, IMDb, saw my work, other).
+  
+  Her nine checkboxes and six budget ranges match her brief exactly.
+- **Extras:** the client marquee, the shop waitlist form, the 404 page, and the selection and order of the featured pieces. Her "top 10" answer named categories, not specific pieces.
