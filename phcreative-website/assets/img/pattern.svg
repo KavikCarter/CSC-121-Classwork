@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Morris-inspired vine (tiles seamlessly left/right) -->
+  <path d="M0 120 C50 150 80 100 130 120 S210 90 260 120" stroke="#96DCDF" stroke-width="1.6"/>
+  <path d="M70 124 C62 108 70 96 84 92 C86 106 80 118 70 124 Z" stroke="#96DCDF" stroke-width="1.3"/>
+  <path d="M176 112 C186 124 186 138 176 146 C168 134 168 122 176 112 Z" stroke="#96DCDF" stroke-width="1.3"/>
+  <!-- Crescent moon (Carolina) -->
+  <path d="M48 26 a20 20 0 1 0 18 32 a15 15 0 1 1 -18 -32 Z" stroke="#FCA481" stroke-width="1.8"/>
+  <!-- Four-pointed star -->
+  <path d="M206 30 L210 45 L225 49 L210 53 L206 68 L202 53 L187 49 L202 45 Z" stroke="#FFC195" stroke-width="1.6"/>
+  <path d="M100 58 L102 64 L108 66 L102 68 L100 74 L98 68 L92 66 L98 64 Z" fill="#FCA481"/>
+  <!-- Spade heart -->
+  <path d="M130 196 C104 178 108 156 122 160 C126 161 129 165 130 169 C131 165 134 161 138 160 C152 156 156 178 130 196 Z" stroke="#FCA481" stroke-width="1.7"/>
+  <path d="M130 196 L125 208 L135 208 Z" fill="#FCA481"/>
+  <!-- Feather (nature / Robin Hood) -->
+  <path d="M30 240 C44 214 60 194 84 176" stroke="#AFDEDC" stroke-width="1.5"/>
+  <path d="M84 176 C64 176 44 198 38 226 C58 218 78 200 84 176 Z" stroke="#AFDEDC" stroke-width="1.3"/>
+  <path d="M52 206 L62 200 M46 218 L56 212 M60 194 L70 189" stroke="#AFDEDC" stroke-width="1"/>
+  <!-- Fox-tail swirl -->
+  <path d="M188 246 C172 214 196 184 222 196 C242 205 236 232 216 230 C202 229 202 214 214 213" stroke="#FFBB9F" stroke-width="1.8"/>
+  <!-- Tapering strokes -->
+  <path d="M130 70 L178 64 L178 67 Z" fill="#96DCDF"/>
+  <path d="M8 182 L56 176 L56 179 Z" fill="#FFC195"/>
+  <path d="M206 160 L252 154 L252 157 Z" fill="#96DCDF"/>
+  <!-- Dots -->
+  <circle cx="150" cy="30" r="2" fill="#AFDEDC"/>
+  <circle cx="240" cy="90" r="1.6" fill="#FCA481"/>
+  <circle cx="20" cy="80" r="1.6" fill="#FFC195"/>
+  <circle cx="96" cy="230" r="2" fill="#96DCDF"/>
+</svg>
