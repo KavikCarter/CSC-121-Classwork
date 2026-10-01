@@ -721,3 +721,11 @@ em.accent, .accent { font-style: italic; color: var(--coral); }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(30px, 6vw, 80px); align-items: center; }
 @media (max-width: 860px) { .split { grid-template-columns: 1fr; } }
 .hero__slide .img-fallback { font-size: 0; }
+
+/* Floral tile band, from the PHC business-card pattern */
+.tile-band {
+  height: 56px;
+  background: url("../img/tile-floral.svg") 0 50% / 56px auto repeat-x, #EADCC8;
+  border-top: 4px solid var(--navy-deep);
+}
+@media (max-width: 600px) { .tile-band { height: 40px; background-size: 40px auto; } }
